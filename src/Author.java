@@ -1,9 +1,9 @@
-public class task1 {
+public class Author {
     private String title;
     private Author author;
     private int year;
 
-    public task1(String title, Author author, int year) {
+    public Author(String title, Author author, int year) {
         this.title = title;
         this.author = author;
         this.year = year;

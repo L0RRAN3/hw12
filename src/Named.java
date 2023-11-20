@@ -1,8 +1,8 @@
-public class task2 {
+public class Named {
     private String firstName;
     private String lastName;
 
-    public task2(String firstName, String lastName) {
+    public Named(String firstName, String lastName) {
         this.firstName = firstName;
         this.lastName = lastName;
     }
