@@ -1,27 +1,17 @@
 public class Author {
-    private String title;
-    private Author author;
-    private int year;
+    private String firstName;
+    private String lastName;
 
-    public Author(String title, Author author, int year) {
-        this.title = title;
-        this.author = author;
-        this.year = year;
+    public Author(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
     }
 
-    public String getTitle() {
-        return title;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public Author getAuthor() {
-        return author;
-    }
-
-    public int getYear() {
-        return year;
-    }
-
-    public void setYear(int year) {
-        this.year = year;
+    public String getLastName() {
+        return lastName;
     }
 }
